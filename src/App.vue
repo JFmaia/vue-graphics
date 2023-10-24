@@ -1,10 +1,12 @@
 <template>
-  <h1>Hello!</h1>
+  <Chart></Chart>
 </template>
 
 <script>
+import Chart from "./components/ChartGraph.vue";
 export default {
   name: "App",
+  components: { Chart },
   data() {
     return {};
   },
